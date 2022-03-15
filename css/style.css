@@ -97,13 +97,29 @@
 
 /* soluzione es 8*/
 
+.ex-8-img{
+    transition:all 3s;
+}
 
-/* soluzione es 1 */
+.ex-8-img:hover{
+    border-radius:20px;
+    filter:sepia(1);
+}
+
+/* soluzione es 9 */
 
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 3s;
+
+}
+
+.ex-9-img:hover{
+    width:600px;
+    border-radius: 20px;
+    opacity: 20%;
 }
 
 /* soluzione es 1 */
